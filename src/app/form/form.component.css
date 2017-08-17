@@ -1,0 +1,27 @@
+﻿.panel-heading{
+    text-align: center;
+}
+.panel{
+    width:500px;
+}
+.login{
+    color:white;
+}
+.logo {
+    background-color:cornflowerblue;
+    text-align: center;
+    color: white;
+    width: 500px;
+    position: relative;
+    left: -16px;
+}
+input.ng-untouched.ng-invalid.ng-pristine{
+    border: 1px solid cornflowerblue;
+}
+input.ng-invalid{
+    border:1px solid red;
+
+}
+input.ng-valid{
+    border:1px solid green;
+}
